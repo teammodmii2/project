@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+  
+  
+
+h2 {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;  
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background: #faf3ec;
+    color: #0c0d0d;
+    padding: 10px 20px; 
+    border-radius: 14px; 
+    display: inline-block; 
+}
+/*header logo and navbar spacing*/
+
+#logo {
+  float: left;
+  font-size: 280%;
+  color: #faf3ec;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: bold; /* Make the font bold */
+}
+
+
+#logo, #navbar {
+    line-height: 75px;
+  }
+  
+
+/*header navbar styling accesibility*/
+
+#navbar {
+  font-size: 110%;
+  list-style: none;
+  letter-spacing: 4px;
+  float:right;
+    color: #5d6f75;
+
+}
+
+
+#navbar li {
+  margin-right: 30px;
+  vertical-align: middle; 
+  float: left;
+  list-style: none;
+
+}
+
+#navbar a {
+  color: inherit;  
+  text-decoration: none;
+
+}
+
+#navbar a {
+    color: inherit;  
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    border-bottom: 2px solid red; /* Change border color when hovered */
+}
+
+.active {
+    border-bottom: 1px solid #faf3ec; /* Style the active link */
+}
+header {
+    background-color: #999; /* Gray background color */
+    padding: 10px; /* Add padding for spacing */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 14px; 
+    border-bottom: 1px solid #999; /* Add a border to separate the header from the content */
+    margin-bottom: 20px;
+   margin-top: 20px; 
+
+}
+
+
+/******************Main page background******************/
+#main-page-outer {
+  margin-top: 20px;
+  height: 650px; 
+ width: 100%;
+ position: relative;
+ overflow: hidden;
+ border-radius: 14px;   
+}
+
+/******************Video Styling******************/
+#main-page-video {
+ position: relative;
+ height: 100%; /* Use 100% height to fill the container */
+ width: 100%; /* Use 100% width to fill the container */
+ overflow: hidden;
+ animation-duration: 10s; /* Adjust the duration of the animation */
+ border-radius: 14px;  
+}
+
+/******************Adjusting Video******************/
+#bg-video {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ min-width: 100%;
+ min-height: 100%;
+ width: auto;
+ height: auto;
+ transform: translate(-50%, -50%);
+ z-index: -1;
+ border-radius: 14px;   
+}
+#company-slogan, #company-slogan h2 {
+    color: #5d6f75;
+    font-size: 1.5rem; /* Set the font size for better readability */
+    text-align:left; /* Center align the text */
+
+}
+#company-slogan h3 {
+    color: #5d6f75;
+    font-size: 1rem; /* Set the font size for better readability */
+    text-align:left; /* Center align the text */
+}
+#company-slogan {
+    font-family: "Titillium Web", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 400px;
+    height: 150px;
+    padding-top: 10px;
+    background-color:  #faf3ec;
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
+    resize: both; /* Allow resizing the box */
+    display: flex;
+    justify-content: center; /* Center align horizontally */
+    align-items: center; /* Center align vertically */
+     border-radius: 14px;  
+
+}
+
+#what-we-do {
+  display: grid;
+     margin-top: 20px;
+ margin-bottom: 20px;
+  grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+  grid-gap: 20px; /* Gap between grid items */
+  background-color: #f2f2f2; /* Set background color for the section */
+  padding: 20px; /* Add padding to the section */
+  text-align: center; /* Align content to the center horizontally */
+  border-radius: 14px; 
+  
+}
+
+#what-we-do h1 {
+      margin-top: 20px;
+    font-family: "Titillium Web", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #5d6f75;
+    font-size: 2.5rem; /* Set the font size for better readability */
+    text-align:center; /* Center align the text */
+}
+
+.title {
+  grid-column: 1 / -1; /* Span the title across all columns */
+  font-size: 24px; /* Set font size for the title */
+  margin-bottom: 20px; /* Add margin below the title */
+}
+
+#Security-info,
+#Privacy-info,
+#Social-info {
+  background-color: #f2f2f2; /* Set background color for the panel */
+  padding: 20px; /* Add padding to the panel */
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  text-align:left; /* Center align the text */
+    font-family: "Titillium Web", sans-serif;
+
+}
+footer {
+  background-color: #999; /* Background color for the footer */
+  color: white; /* Text color for the footer */
+  padding: 20px; /* Add padding to the footer */
+  text-align: center; /* Align content to the center horizontally */
+  border-radius: 14px; 
+   margin-bottom: 20px; 
+
+}
+
+.footer-content {
+  max-width: 800px; /* Set maximum width for content */
+  margin: 0 auto; /* Center content horizontally */
+}
+
+.social-links {
+  list-style-type: none; /* Remove bullet points from the list */
+  padding: 0; /* Remove default padding from the list */
+}
+
+.social-links li {
+  display: inline-block; /* Display list items horizontally */
+  margin-right: 10px; /* Add margin between list items */
+}
+
+.social-links li:last-child {
+  margin-right: 0; /* Remove margin from the last list item */
+}
+
+.social-links li a {
+  color: white; /* Text color for the links */
+  text-decoration: none; /* Remove underline from the links */
+}
+
+.social-links li a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+.author {
+  margin-top: 20px; 
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+    z-index: 1;
+    border-radius: 14px; 
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
